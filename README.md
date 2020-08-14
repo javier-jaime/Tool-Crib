@@ -1,1 +1,1 @@
-# Coursera_Capstone
+# Machine Learning Assignment
