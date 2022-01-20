@@ -1,0 +1,22 @@
+You can access your mongodb database via:
+ • The browser at: https://javierajaime-8081.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai
+ • CommandLine: mongo -u root -p MjY3NzEtamF2aWVy --authenticationDatabase admin local
+
+Your cassandra server is now ready to use and available with username: cassandra password: MTgxNDItamF2aWVy
+
+You can access your cassandra database via:
+ • CommandLine: cqlsh --username cassandra --password MTgxNDItamF2aWVy
+
+Cloudant
+{
+  "apikey": "ezMVU4IX3BDcOAq1aoTw1moDbQrBHxBJumHwV43Qg8M-",
+  "host": "a717e739-1041-43b8-895f-104c5f0d912e-bluemix.cloudantnosqldb.appdomain.cloud",
+  "iam_apikey_description": "Auto-generated for key 5b480cb1-463f-4263-95c3-0ecabe84a2b1",
+  "iam_apikey_name": "for-training",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/c1da3de68da740e99cf4f23181223c02::serviceid:ServiceId-d41576bd-ad62-40de-b1e4-8f7ce2accec8",
+  "password": "846d6c94ffa986e0d3e2a8591b1f6f74",
+  "port": 443,
+  "url": "https://apikey-v2-1uaw7rr4qzevx6nn1kxzij8klc1hfx5kwh2lgsrn4eh9:846d6c94ffa986e0d3e2a8591b1f6f74@a717e739-1041-43b8-895f-104c5f0d912e-bluemix.cloudantnosqldb.appdomain.cloud",
+  "username": "apikey-v2-1uaw7rr4qzevx6nn1kxzij8klc1hfx5kwh2lgsrn4eh9"
+}

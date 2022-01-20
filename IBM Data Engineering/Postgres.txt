@@ -1,0 +1,20 @@
+Your Postgres database is now ready to use and available with username: postgres password: MjMxOTYtamF2aWVy
+
+You can access your Postgres database via:
+ • The Browser with pgadmin
+   • URL: https://javierajaime-5050.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/browser/
+   • Database Password: MjMxOTYtamF2aWVy
+ • CommandLine: psql --username=postgres --host=localhost
+
+You can access your Postgres database via:
+ • The Browser with pgadmin
+   • URL: https://javierajaime-5050.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/browser/
+   • Database Password: MjMxOTYtamF2aWVy
+
+MySQL database started, waiting for all services to be ready....
+    
+Your MySQL database is now ready to use and available with username: root password: OTUwMC1qYXZpZXJh
+
+You can access your MySQL database via:
+ • The browser at: https://javierajaime-8080.theiadocker-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai
+ • CommandLine: mysql --host=127.0.0.1 --port=3306 --user=root --password=OTUwMC1qYXZpZXJh
