@@ -1,0 +1,5 @@
+tripid
+dateid
+wastetypeid
+zoneid
+wastecollected
