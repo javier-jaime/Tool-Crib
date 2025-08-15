@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+</head>
+<body>
+    <h1>AI Assistant</h1>
+    <form id="ai-form">
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <label for="model">Model:</label><br>
+        <select id="model" name="model">
+            <option value="llama3">Llama3</option>
+            <option value="granite">Granite</option>
+            <option value="mixtral">Mixtral</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <div id="response"></div>
+    <script>
+        document.getElementById('ai-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var message = document.getElementById('message').value;
+            var model = document.getElementById('model').value;
+            
+            fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    'message': message,
+                    'model': model
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.error){
+                    document.getElementById('response').innerText = 'Error: ' + data.error;
+                } else {
+                    document.getElementById('response').innerText = 'Response: ' + data.response + '\nDuration: ' + data.duration.toFixed(2) + ' seconds' + '\nFull JSON: ' + JSON.stringify(data);
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                document.getElementById('response').innerText = 'Error: ' + error;
+            });
+        });
+    </script>
+</body>
+</html>
