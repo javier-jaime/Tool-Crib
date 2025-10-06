@@ -1,0 +1,157 @@
+Timestamp: 2024-01-16 01:00:00
+Source IP: 192.168.45.10
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 80
+Description: Normal inbound web traffic from a local network source to the server. No signs of unusual activity.
+
+Timestamp: 2024-01-16 02:15:20
+Source IP: 10.0.0.5
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 53
+Description: Routine DNS request from an internal source to the server. Expected behavior with no signs of malicious intent.
+
+Timestamp: 2024-01-16 03:30:45
+Source IP: 192.168.1.20
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 443
+Description: Inbound HTTPS connection from a trusted local source to the server. No indications of suspicious activity.
+
+Timestamp: 2024-01-16 04:45:10
+Source IP: 172.16.20.5
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 123
+Description: Normal NTP traffic from an internal device to the server. Expected behavior with no signs of anomalies.
+
+Timestamp: 2024-01-16 05:55:30
+Source IP: 192.168.30.15
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 22
+Description: Inbound SSH connection from a trusted internal source to the server. No indications of malicious activity observed.
+
+Timestamp: 2024-01-15 14:30:00
+Source IP: 203.45.67.8
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 21
+Description: Inbound connection to the server from multiple sources. Unusual high traffic indicates a potential DDoS attack.
+
+Timestamp: 2024-01-15 14:31:10
+Source IP: 198.76.54.3
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 5000
+Description: Inbound traffic from various sources detected. Suspicious activity points to a possible DDoS attack.
+
+Timestamp: 2024-01-15 15:45:22
+Source IP: 192.168.10.15
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 8080
+Description: Unusual inbound traffic pattern from different sources. Connection to a common destination IP suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 16:20:45
+Source IP: 200.150.20.10
+Destination IP: 186.20.20.27
+Protocol: ICMP
+Description: Inbound ICMP traffic from various sources. Possible DDoS attack indicated by the abnormal activity to a specific destination IP.
+
+Timestamp: 2024-01-15 16:35:00
+Source IP: 205.180.30.6
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 123
+Description: Unusual inbound UDP traffic detected from different sources. Connection to a common destination IP raises concerns of a potential DDoS attack.
+
+Timestamp: 2024-01-15 17:10:15
+Source IP: 192.168.1.2
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 8080
+Description: Inbound connection with high traffic from various sources. Possible DDoS attack indicated by the unusual activity to a specific destination IP.
+
+Timestamp: 2024-01-15 17:45:30
+Source IP: 198.45.67.9
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 5000
+Description: Suspicious inbound traffic detected. Unusual activity from different sources suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 18:20:45
+Source IP: 210.30.40.7
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 21
+Description: Inbound connection from multiple sources. Unusual high traffic to a common destination IP raises suspicion of a DDoS attack.
+
+Timestamp: 2024-01-15 18:35:00
+Source IP: 195.90.12.14
+Destination IP: 186.20.20.27
+Protocol: ICMP
+Description: Inbound ICMP traffic detected from different sources. Abnormal activity to a common destination IP suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 19:10:15
+Source IP: 203.56.78.19
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 123
+Description: Unusual inbound UDP traffic from various sources. Connection to a common destination IP raises concerns of a potential DDoS attack.
+
+Timestamp: 2024-01-15 19:45:30
+Source IP: 199.32.54.6
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 8080
+Description: Inbound traffic pattern anomaly from different sources. Connection to a common destination IP indicates a potential DDoS attack.
+
+Timestamp: 2024-01-15 20:20:45
+Source IP: 207.11.22.11
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 5000
+Description: Suspicious inbound traffic detected. Unusual activity from different sources suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 20:35:00
+Source IP: 201.45.67.16
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 21
+Description: Inbound connection from multiple sources. Unusual high traffic to a common destination IP raises suspicion of a DDoS attack.
+
+Timestamp: 2024-01-15 21:10:15
+Source IP: 192.168.2.2
+Destination IP: 186.20.20.27
+Protocol: ICMP
+Description: Inbound ICMP traffic detected from different sources. Abnormal activity to a common destination IP suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 21:45:30
+Source IP: 195.78.90.9
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 123
+Description: Unusual inbound UDP traffic from various sources. Connection to a common destination IP raises concerns of a potential DDoS attack.
+
+Timestamp: 2024-01-15 22:20:45
+Source IP: 201.23.45.13
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 8080
+Description: Inbound connection with high traffic from different sources. Possible DDoS attack indicated by the unusual activity to a specific destination IP.
+
+Timestamp: 2024-01-15 22:35:00
+Source IP: 205.40.30.17
+Destination IP: 186.20.20.27
+Protocol: UDP
+Port: 5000
+Description: Suspicious inbound traffic detected. Unusual activity from different sources suggests a potential DDoS attack.
+
+Timestamp: 2024-01-15 23:10:15
+Source IP: 192.168.3.4
+Destination IP: 186.20.20.27
+Protocol: TCP
+Port: 21
+Description: Inbound connection from multiple sources. Unusual high traffic to a common destination IP raises suspicion of a DDoS attack.
