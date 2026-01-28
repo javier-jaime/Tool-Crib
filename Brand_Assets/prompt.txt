@@ -1,1 +1,0 @@
-Create a Slide Deck with all the selected sources information using the brand-guideline.md and place the logo.png at the top right corner. 
