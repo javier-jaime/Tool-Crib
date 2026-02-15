@@ -1,3 +1,0 @@
-Create a Slide Deck from the selected sources information using the brand-guideline.md and place the sources [logo.png] on the first and last page.
-
-Create an infographic and place the logo from my sources at the top right corner.
